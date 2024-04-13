@@ -1,7 +1,9 @@
 <template>
   <div class="sectionprojects">
-    <h1 class="titulosection">Projects</h1>
     <div class="containerprojects">
+
+    <h1 class="titulosection">Projects</h1>
+    
       <div class="containercardsprojects">
         <div class="cardprojects">
           <div class="imgprojects"><img src="../../../assets/Gatcc.png" alt=""></div>
@@ -50,8 +52,11 @@
 .containercardsprojects {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
-
+.containerprojects{
+  padding: 10px;
+}
 .titulosection {
   display: flex;
   color: #fff;
@@ -65,12 +70,15 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  background: #616060;
+  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.631));
 }
 
 .imgprojects img {
   width: 100%;
   border-radius: 5px;
+  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
 }
 
 .texttituloprojects h1 {
@@ -90,8 +98,7 @@
     padding: 5px;
   }
   .cardprojects {
-    width: calc(33.33% - 20px);
-    margin-right: 20px;
+    width: calc(33.33% - 10px);
   }
   .descricaoprojects{
     text-align: justify;
@@ -106,12 +113,17 @@
   }
   .cardprojects {
     width: calc(50% - 20px);
-    margin-right: 20px;
+    margin: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  
+  .containercardsprojects {
+    flex-wrap: wrap;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
 }
 
 /* Estilos para telas pequenas */

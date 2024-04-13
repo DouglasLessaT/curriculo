@@ -1,7 +1,7 @@
 <template>
   <div class="containersHobbies">
 
-    <h1 class="titulosection">My hobbies</h1>
+    <h1 class="titulosection">My Hobbies</h1>
     <div class="sectionhobby">
 
       <div class="divsectionhobby1">
@@ -109,15 +109,45 @@
   .fotohobby {
     height: auto;
     width: auto;
-    max-width: 200px;
+    max-width: 250px;
   }
 
   .fotohobby2x1 {
-    max-width: 200px;
+    max-width: 250px;
   }
 }
 
 @media screen and (max-width: 425px) {
+  .fotohobby {
+    height: auto;
+    width: auto;
+    max-width: 130px;
+  }
+
+  .fotohobby2x1 {
+    max-width: 130px;
+  }
+  .divmosaico1x1-2{
+    display: flex;
+  }
+
+}
+@media screen and (max-width: 375px) {
+  .fotohobby {
+    height: auto;
+    width: auto;
+    max-width: 120px;
+  }
+
+  .fotohobby2x1 {
+    max-width: 120px;
+  }
+  .divmosaico1x1-2{
+    display: flex;
+  }
+
+}
+@media screen and (max-width: 320px) {
   .fotohobby {
     height: auto;
     width: auto;
@@ -132,4 +162,5 @@
   }
 
 }
+
 </style>

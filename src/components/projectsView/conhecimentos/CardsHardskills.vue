@@ -7,8 +7,8 @@
           <table>
             <thead>
               <tr>
-                <th>Hard Skills</th>
-                <th>Level</th>
+                <th class="hardSkillsTitulo">Hard Skill </th>
+                <th class="hardSkillsTitulo">Level</th>
               </tr>
             </thead>
             <tbody>
@@ -17,40 +17,40 @@
                 <td class="impar-tabela">Medium</td>
               </tr>
               <tr>
-                <td>Java Spring boot </td>
-                <td>Standard</td>
+                <td class="par-tabela">Java Spring boot </td>
+                <td class="par-tabela">Standard</td>
               </tr>
               <tr>
                 <td class="impar-tabela">Java script</td>
                 <td class="impar-tabela">Standard</td>
               </tr>
               <tr>
-                <td>Docker</td>
-                <td>Standard</td>
+                <td class="par-tabela">Docker</td>
+                <td class="par-tabela">Standard</td>
               </tr>
               <tr>
                 <td class="impar-tabela">Linux server</td>
                 <td class="impar-tabela">Standard</td>
               </tr>
               <tr>
-                <td>Vue</td>
-                <td>Easy</td>
+                <td class="par-tabela">Vue</td>
+                <td class="par-tabela">Easy</td>
               </tr>
               <tr>
                 <td class="impar-tabela">React</td>
                 <td class="impar-tabela">Easy</td>
               </tr>
               <tr>
-                <td>Micorsoft server</td>
-                <td>Standard</td>
+                <td class="par-tabela">Micorsoft server</td>
+                <td class="par-tabela">Standard</td>
               </tr>
               <tr>
                 <td class="impar-tabela">Google clound</td>
                 <td class="impar-tabela">Standard</td>
               </tr>
               <tr>
-                <td>Python</td>
-                <td>Easy</td>
+                <td class="par-tabela">Python</td>
+                <td class="par-tabela">Easy</td>
               </tr>
 
             </tbody>
@@ -91,11 +91,15 @@
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
+  width: 450px;
+  background: #616060;
+  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.631));
+  
 }
 .impar-tabela{
   color:#fff
 }
-/* Estilo para a tabela */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -108,31 +112,20 @@ thead {
 }
 
 /* Estilo para as células do cabeçalho */
-th {
+.hardSkillsTitulo {
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Estilo para as células da tabela */
 td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
+  text-align:center; 
 }
 
 /* Estilo para as linhas pares da tabela */
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
-}
-
-/* Estilo para as células com nível 'baixo' */
-td:contains("baixo") {
-  color: #ff6347;
-  /* Cor vermelha */
-}
-
-/* Estilo para as células com nível 'medio' */
-td:contains("medio") {
-  color: #ffd700;
-  /* Cor amarela */
 }
 </style>
