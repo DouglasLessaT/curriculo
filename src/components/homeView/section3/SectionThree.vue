@@ -52,7 +52,7 @@ export default {
  display: flex;
  align-items: center;
  justify-content: space-evenly;
- padding: 10px;
+ padding: 25px;
 }
 
 .tituloExperencies {
@@ -71,6 +71,7 @@ export default {
  color: #fff;
  padding:10px;
  font-size: 20px;
+ text-align: justify;
 
 }
 

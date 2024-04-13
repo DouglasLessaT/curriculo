@@ -64,6 +64,9 @@ export default {
   padding: 0 10px;
 }
 
+.divimgsction2{
+  margin-right: 25px;
+}
 .imgsction2 {
   filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
   width: 100%;
@@ -100,6 +103,8 @@ export default {
 
   .divimgsction2 {
     display: none;
+    margin-right: 20px;
+    
   }
 
   .imgsction2 {
