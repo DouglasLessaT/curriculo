@@ -21,7 +21,7 @@
 
     </div>
     <div class="divimgsction2">
-      <img class="imgsction2" src="@/assets/me.jpeg" alt="">
+      <img class="imgsction2" src="../../../assets/me.jpeg" alt="">
     </div>
   </div>
 
@@ -101,7 +101,8 @@ export default {
   margin: 20px;
 }
   .divimgsction2 {
-    display: none;
+    display: flex;
+    justify-content: center;
     margin-right: 20px;
     
   }
