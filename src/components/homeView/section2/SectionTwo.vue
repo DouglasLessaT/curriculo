@@ -6,8 +6,7 @@
         <img class="imgsction2mobile" src="@/assets/me.jpeg" alt="">
       </div>
       <p class="paragrafoSection2">I am a developer currently studying Systems Analysis and Technology at UniSales
-        - Centro Universitário Salesiano. Welcome to my website, which serves as a portfolio showcasing my ideas!
-        Please note that I am not photogenic, so my portfolio does not contain personal photos.</p>
+        - Centro Universitário Salesiano. Welcome to my website, which serves as a portfolio showcasing my ideas!</p>
       <div class="divimgsocialsection2">
         <a href="https://github.com/privateclasswizard"><img class="imgsocialsection2" src="@/assets/github.svg"
             alt=""></a>
