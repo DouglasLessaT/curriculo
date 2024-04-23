@@ -30,6 +30,9 @@ export default {
   methods: {
     toggleSidebar() {
       this.sidebarActive = !this.sidebarActive;
+    },
+    closeSidebar() {
+      this.sidebarActive = false;
     }
   }
 }
