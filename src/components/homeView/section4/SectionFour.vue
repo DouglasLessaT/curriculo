@@ -147,13 +147,14 @@
     justify-content: space-around;
 }
 .cardskills {
-  width: 50%;
+  width: 70%;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 5px;
   background: #616060;
   filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.631));
+  translate:-15%;
 }
 
 .imgskills img {
@@ -182,15 +183,15 @@
   }
 
   .cardskills {
-    width: 80%;
-    translate:-10%;
+    width: 70%;
+    translate:-15%;
   }
 }
 
 @media (max-width: 576px) {
   .cardskills {
-    width: 80%;
-    translate:-10%;
+    width: 70%;
+    translate:-15%;
   }
 }
 </style>
