@@ -95,12 +95,11 @@ export default {
 
   }
 
-  .divimgsction2mobile {
-    display: flex;
-    justify-content: center;
-
-  }
-
+  .divimgsocialsection2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
   .divimgsction2 {
     display: none;
     margin-right: 20px;
@@ -118,6 +117,7 @@ export default {
   .imgsocialsection2 {
     justify-content: center;
     height: 40px;
+    
   }
 
   .imgsction2mobile {
