@@ -10,9 +10,9 @@
     </div>
     <img class="imgmenu" src="@/assets/white-menu-icon-png-18.png" alt="" @click="toggleSidebar">
     <div class="sidebar" :class="{ 'active': sidebarActive }">
-      <a href="#/" class="sectionsnavsidebar">{{ section1 }}</a>
-      <a href="#/about" class="sectionsnavsidebar">{{ section2 }}</a>
-      <a href="#/projects" class="sectionsnavsidebar">{{ section5 }}</a>
+      <a href="#/" class="sectionsnavsidebar" @click="closeSidebar">{{ section1 }}</a>
+      <a href="#/about" class="sectionsnavsidebar" @click="closeSidebar">{{ section2 }}</a>
+      <a href="#/projects" class="sectionsnavsidebar" @click="closeSidebar">{{ section5 }}</a>
     </div>
   </div>
 </template>
