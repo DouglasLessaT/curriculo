@@ -8,7 +8,7 @@
       <p class="paragrafoSection2">I am a developer currently studying Systems Analysis and Technology at UniSales
         - Centro Universitário Salesiano. Welcome to my website, which serves as a portfolio showcasing my ideas!</p>
       <div class="divimgsocialsection2">
-        <a href="https://github.com/privateclasswizard"><img class="imgsocialsection2" src="@/assets/github.svg"
+        <a href="https://github.com/DouglasLessaT"><img class="imgsocialsection2" src="@/assets/github.svg"
             alt=""></a>
         <a href="https://www.linkedin.com/in/douglaslessat/"><img class="imgsocialsection2" src="@/assets/linkedin.svg"
             alt=""></a>

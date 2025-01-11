@@ -3,7 +3,7 @@
 
     <div class="containerfooter">
       <div class="containersocial">
-        <a href="https://github.com/privateclasswizard"><img class="imgsocialfooter" src="@/assets/github.svg"
+        <a href="https://github.com/DouglasLessaT"><img class="imgsocialfooter" src="@/assets/github.svg"
             alt=""></a>
         <a href="https://www.linkedin.com/in/douglaslessat/"><img class="imgsocialfooter" src="@/assets/linkedin.svg"
             alt=""></a>
