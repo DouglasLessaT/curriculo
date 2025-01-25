@@ -3,7 +3,7 @@
       <pre class="output">{{ terminalOutput }}</pre>
     </div>
   </template>
-  
+   
   <script>
   export default {
     name: "TerminalView",
