@@ -60,7 +60,6 @@
     padding: 20px;
     overflow: hidden;
   }
-  
   .output {
     white-space: pre-wrap;
     font-size: 16px;
