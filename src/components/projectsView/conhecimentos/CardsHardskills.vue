@@ -18,15 +18,15 @@
               </tr>
               <tr>
                 <td class="par-tabela">Java Spring boot </td>
-                <td class="par-tabela">Standard</td>
+                <td class="par-tabela">Medium</td>
               </tr>
               <tr>
                 <td class="impar-tabela">Java script</td>
-                <td class="impar-tabela">Standard</td>
+                <td class="impar-tabela">Medium</td>
               </tr>
               <tr>
                 <td class="par-tabela">Docker</td>
-                <td class="par-tabela">Standard</td>
+                <td class="par-tabela">Medium</td>
               </tr>
               <tr>
                 <td class="impar-tabela">Linux server</td>
@@ -41,7 +41,7 @@
                 <td class="impar-tabela">Easy</td>
               </tr>
               <tr>
-                <td class="par-tabela">Micorsoft server</td>
+                <td class="par-tabela">AWS</td>
                 <td class="par-tabela">Standard</td>
               </tr>
               <tr>
@@ -50,7 +50,7 @@
               </tr>
               <tr>
                 <td class="par-tabela">Python</td>
-                <td class="par-tabela">Easy</td>
+                <td class="par-tabela">Medium</td>
               </tr>
 
             </tbody>
@@ -64,8 +64,8 @@
 
 <style>
 .sectionHardskills {
-  background: #666666;
-  background-image: linear-gradient(to right, #7c7c7c, #42404057);
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #000000);
 }
 
 .titulosection {
@@ -92,7 +92,7 @@
   padding: 10px;
   margin-bottom: 20px;
   width: 450px;
-  background: #616060;
+  background: #272727;;
   filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.631));
   
 }

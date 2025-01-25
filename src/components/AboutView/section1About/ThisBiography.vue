@@ -48,8 +48,8 @@
 
 <style>
 .section1about {
-  background: #666666;
-  background-image: linear-gradient(to right, #7c7c7c, #42404057);
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #00000057);
 }
 
 .containersection1about {

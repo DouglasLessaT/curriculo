@@ -1,14 +1,170 @@
 <template>
- <div class="section1">
-  <div class="divimgsction1">
-   <img class="imgsction1" src="@/assets/background.svg" alt="">
+
+  <div class="section2">
+    <div class="textosection2">
+      <h1 class="TituloSection2">Nice to meet you my name is <span class="TituloSection2Douglas">Douglas</span> </h1>
+      <div class="divimgsction2mobile">
+        <img class="imgsction2mobile" src="@/assets/me.jpeg" alt="">
+      </div>
+      <p class="paragrafoSection2">I am a developer currently studying Systems Analysis and Technology at UniSales
+        - Centro Universitário Salesiano. Welcome to my website, which serves as a portfolio showcasing my ideas!</p>
+      <div class="divimgsocialsection2">
+        <a href="https://github.com/DouglasLessaT"><img class="imgsocialsection2" src="@/assets/github.svg" alt=""></a>
+        <a href="https://www.linkedin.com/in/douglaslessat/"><img class="imgsocialsection2" src="@/assets/linkedin.svg"
+            alt=""></a>
+        <a href="https://www.instagram.com/douglas.lessat/"><img class="imgsocialsection2" src="@/assets/Instagram.svg"
+            alt=""></a>
+        <a href="https://api.whatsapp.com/send/?phone=5527992730834&text&type=phone_number&app_absent=0"><img
+            class="imgsocialsection2" src="@/assets/whatappicon.svg" alt=""></a>
+      </div>
+
+    </div>
+    <div class="divimgsction2">
+      <img class="imgsction2" src="../../../assets/me.jpeg" alt="">
+    </div>
   </div>
-  <div class="textosection1">
-   <h1 class="TituloSection1">Welcome stranger</h1>
-   <p class="paragrafoSection1">This site is owned by privateclasswizard (Douglas Lessa Taquete)
-    scroll down to find out more</p>
+
+  <div class="section3">
+    <h1 class="titulosection">Experencies</h1>
+    <div class="divExperenciesgrup">
+      <div class="divExperencies">
+        <p class="tituloExperencies">Project head /Dalta Madeiras, Rio Marino Vila-Velha</p>
+        <p class="dataExperencies">JUNE 2022 – PRESENT</p>
+        <p class="descriçãoExperencies">At Dalta Madeiras, I played a crucial role as an Administrative Assistant,
+          leading administrative management and supervision of the office's daily operations.
+          Responsible forcoordinating eight employees and 20 projects, my role involved the
+          efficient organization ofoffice functions, including hiring, training and onboarding
+          new team membersteam. In addition, I actively participated in the company's data
+          management and analysis,contributing to strategic and effective decision making.</p>
+      </div>
+      <div class="divExperencies">
+        <p class="tituloExperencies">Estagiario Dev , Brazil</p>
+        <p class="dataExperencies">Jan 2024 – PRESENT</p>
+        <p class="descriçãoExperencies">
+          My mission was to help micro-enterprises expand their business through website
+          developmentpersonalized solutions and systems adapted to your specific needs. As
+          part of a teamdynamic and innovative, I was able to apply my technical and creative
+          skills to create solutionsefficient and impactful for our customers. Working
+          autonomously and collaboratively,I always sought to exceed expectations, providing
+          high quality results and contributingfor the continued success of our customers.
+        </p>
+      </div>
+    </div>
   </div>
- </div>
+
+  <div class="section4">
+    <h1 class="titulosection">Soft skills</h1>
+    <div class="carroselsectio4">
+      <div id="carouselSoftSkills" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cardskills">
+              <div class="imgskills"><img src="@/assets/Comunicativo.jpg" alt=""></div>
+              <div class="texttituloskills">
+                <h1>Communicative</h1>
+              </div>
+              <div class="descricaoskills">
+                <p>Being communicative involves the ability to convey thoughts, ideas,
+                  and information effectively. It encompasses both verbal and non-verbal
+                  communication, active listening, and the capacity to articulate thoughts
+                  clearly. A communicative individual can express themselves fluently,
+                  engage in constructive dialogue, and ensure that messages are understood by others.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardskills">
+              <div class="imgskills"><img src="@/assets/analiticodesenho.png" alt=""></div>
+              <div class="texttituloskills">
+                <h1>Analytical</h1>
+              </div>
+              <div class="descricaoskills">
+                <p>Being analytical involves the capacity to examine information,
+                  data, or situations critically and systematically. It includes the
+                  ability to identify patterns, trends, and relationships, and draw
+                  logical conclusions based on evidence and reasoning. Analytical
+                  individuals possess strong problem-solving skills, attention to
+                  detail, and the aptitude to evaluate complex issues comprehensively
+                  to make informed decisions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardskills">
+              <div class="imgskills"><img src="@/assets/otimizar-processos.jpg" alt=""></div>
+              <div class="texttituloskills">
+                <h1>Process Optimization</h1>
+              </div>
+              <div class="descricaoskills">
+                <p>Process optimization refers to the skill of streamlining workflows,
+                  systems, or procedures to enhance efficiency and productivity. It involves identifying
+                  bottlenecks, eliminating redundant steps, and implementing improvements to
+                  achieve better outcomes. Individuals with this skill can analyze existing
+                  processes, propose innovative solutions, and adapt to changing circumstances
+                  to achieve optimal results.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardskills">
+              <div class="imgskills"><img src="@/assets/proatividade.jpg" alt=""></div>
+              <div class="texttituloskills">
+                <h1>Proactivity</h1>
+              </div>
+              <div class="descricaoskills">
+                <p>Proactivity refers to taking initiative and responsibility for one's
+                  actions and decisions. It involves anticipating challenges, identifying
+                  opportunities, and acting ahead of time to prevent issues or capitalize
+                  on favorable circumstances. Proactive individuals demonstrate initiative,
+                  resourcefulness, and a willingness to go above and beyond expectations
+                  to achieve goals or solve problems.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardskills">
+              <div class="imgskills"><img src="@/assets/espirito-de-equipe.jpg" alt=""></div>
+              <div class="texttituloskills">
+                <h1>Team Spirit</h1>
+              </div>
+              <div class="descricaoskills">
+                <p>Team spirit is the ability to collaborate effectively with others
+                  towards a common goal. It encompasses cooperation, supportiveness,
+                  and a positive attitude towards team members. Individuals with a
+                  strong team spirit value collective success over personal achievements,
+                  actively contribute to group efforts, and foster a sense of unity and
+                  camaraderie within the team.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cardskills">
+              <div class="imgskills"><img src="@/assets/gestaodeconflitos.jpg" alt=""></div>
+              <div class="texttituloskills">
+                <h1>Conflict Management</h1>
+              </div>
+              <div class="descricaoskills">
+                <p>Conflict management entails the ability to handle disagreements,
+                  disputes, or tensions constructively. It involves effective communication,
+                  active listening, empathy, and negotiation skills to resolve conflicts
+                  peacefully and find mutually beneficial solutions. Those proficient in
+                  conflict management can mediate disputes, de-escalate confrontations,
+                  and foster harmonious relationships within teams or organizations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSoftSkills" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSoftSkills" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
 
 </template>
 
@@ -19,53 +175,242 @@ export default {
 </script>
 
 <style>
-.section1 {
- background: #666666;
- background-image: linear-gradient(to right, #7c7c7c, #42404057);
- display: flex;
- align-items: center;
- justify-content: center;
+.section3 {
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #000000c5);
 }
 
-.textosection1{
+.titulosection {
+  display: flex;
   color: #fff;
-  font-display:inherit;
- }
- .TituloSection1{
-  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
- }
-.paragrafoSection1{
- filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
- font-size: 20px;
- text-align: justify;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+
 }
-.imgsction1{
- filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
+
+.divExperenciesgrup {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.tituloExperencies {
+  color: #fff;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.dataExperencies {
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.descriçãoExperencies {
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: justify;
+
 }
 
 @media screen and (max-width: 768px) {
- .section1 {
+
+  .divExperenciesgrup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+
+.section4 {
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #000000c5);
+  padding: 80px 0;
+}
+
+.carroselsection4 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.cardskills {
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #000000;
+  translate: -15%;
+  display: flex;
+  width: 70%;
+  translate: -15%;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.imgskills img {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.texttituloskills h1 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.descricaoskills p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #fff
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .carousel-inner {
+    flex-wrap: wrap;
+  }
+
+  .cardskills {
+    display: flex;
+    width: 70%;
+    translate: -15%;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .cardskills {
+    display: flex;
+    width: 70%;
+    translate: -15%;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+.section2 {
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #000000c5);
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+}
 
- }
- .divimgsction1{
-  display: flex;
-  justify-content: center;
- }
- .imgsction1 {
-  width: 80%;
- }
- .TituloSection1{
-  text-align: center;
-  
- }
- .textosection1{
-  margin: 0 15px;
-  justify-content: center;
+.textosection2 {
   color: #fff;
- }
+  font-display: inherit;
+  padding: 10px
+}
+
+.TituloSection2Douglas {
+  text-decoration: underline
+}
+
+.TituloSection2 {
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+}
+
+.paragrafoSection2 {
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+  font-size: 20px;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.divimgsction2 {
+  margin-right: 25px;
+}
+
+.imgsction2 {
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+  width: 100%;
+}
+
+.divimgsocialsection2 {
+  margin: 20px;
+}
+
+.imgsocialsection2 {
+  margin: 2px;
+  height: 60px;
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+}
+
+.divimgsction2mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .divimgsocialsection2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .divimgsction2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+
+  }
+
+  .imgsction2 {
+    width: 50%;
+  }
+
+  .TituloSection2 {
+    text-align: center;
+  }
+
+  .imgsocialsection2 {
+    justify-content: center;
+    height: 40px;
+
+  }
+
+  .imgsction2mobile {
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    width: 90%;
+
+  }
+
+  .paragrafoSection2 {
+    filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 0px;
+  }
 }
 </style>

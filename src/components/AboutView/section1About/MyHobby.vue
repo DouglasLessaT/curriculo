@@ -28,8 +28,8 @@
 
 <style>
 .containersHobbies {
-  background: #666666;
- background-image: linear-gradient(to right, #7c7c7c, #42404057);
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #000000);
 }
 
 .sectionhobby {

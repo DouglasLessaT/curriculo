@@ -45,8 +45,8 @@
 
 <style>
 .sectionprojects {
-  background: #666666;
-  background-image: linear-gradient(to right, #7c7c7c, #42404057);
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #00000057);
 }
 
 .containercardsprojects {
@@ -62,7 +62,7 @@
   color: #fff;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
 }
 
 .cardprojects {
@@ -71,14 +71,14 @@
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 5px;
-  background: #616060;
-  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.631));
+  background: #000000;
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
 }
 
 .imgprojects img {
   width: 100%;
   border-radius: 5px;
-  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
 }
 
 .texttituloprojects h1 {
@@ -90,7 +90,7 @@
 .descricaoprojects p {
   font-size: 14px;
   margin: 10px 0;
-  color:#fff
+  color:#fff;  
 }
 @media screen and (min-width: 1024px) {
   .containercardsprojects {
