@@ -8,34 +8,29 @@
       </div>
       <div class="divtextosection1about">
         <p class="textBiography">
-          So where do I begin? I'm the youngest son of Silvana and Pedro, born in Vila Velha, ES. My family had humble
-          beginnings in the neighborhood of Aráças, but my parents moved to my grandparents' house before I was born.
-          I've
-          always been an introverted child, but curious to understand how things work and why they work. This curiosity
-          often
-          caused trouble for my grandfather, as I used to disassemble his pocket watches. I was raised mostly by my
-          grandparents, spending most of my time at home.
-          When my brother and father brought a computer home, I was fascinated by how it worked. I spent days and nights
-          learning how to use it and disassemble it. I read many hardware and software books that belonged to my
-          brother. My uncle was the one who most encouraged me to practice the sport that became my hobby today,
-          surfing. He picked me up at home every Saturday and Sunday to go to U'lé.
+          Where shall I begin? I am the youngest son of Silvana and Pedro, born in Vila Velha, 
+          Espírito Santo. My family’s origins were modest, rooted in the neighborhood of Aráças,
+           though my parents relocated to my grandparents’ home prior to my birth. I have always 
+           been an introverted individual, yet deeply curious about understanding how things function
+            and the reasons behind their workings. This curiosity often led to complications for my 
+            grandfather, as I frequently disassembled his pocket watches. I was primarily raised by 
+            my grandparents, spending the majority of my time at home. When my brother and father brought 
+            a computer into our household, I became captivated by its mechanics. I devoted countless days 
+            and nights to learning how to operate and dismantle it. I read numerous books on hardware and
+            software that belonged to my brother. My uncle played a significant role in encouraging me to 
+            take up the sport that has since become my hobby: surfing. He would collect me from home every 
+            Saturday and Sunday to visit Ulê Beach.
         </p>
         <p class="textBiography">
-          This led me to distance myself from computers and start working and studying to help my parents since I was 13
-          years
-          old, as I didn't like my parents spending their money on me. I worked various jobs like distributing
-          pamphlets,
-          waiter, bricklayer's assistant, mechanic's assistant, until I finished high school. Then, my father asked me
-          to work
-          with him in the carpentry shop because he was tired of seeing me work for others and because I didn't know
-          what I
-          wanted to do after high school.
-
-          Some time passed, and I found those hardware and software books I used to read when I was younger. This
-          reignited my
-          interest in computers, and I delved deeper into understanding the components and operating systems since I
-          only had
-          books about Windows Vista. This led me to decide to pursue a degree in Systems Analysis Technology.
+          I began working and studying to support my parents from the age of 13, as I was uncomfortable with
+           them spending money on me. I held various positions, such as distributing flyers, working as a waiter,
+            serving as a bricklayer’s assistant, and assisting a mechanic, until I completed high school. Subsequently,
+             my father requested that I join him in his carpentry workshop, as he was weary of seeing me labor 
+             for others and because I was uncertain of my path following high school. After some time had passed, 
+             I rediscovered the hardware and software books I had read in my youth. This rekindled my passion for 
+             computers, and I immersed myself in understanding their components and operating systems, particularly 
+             since my resources were limited to books on Windows Vista. This ultimately guided my decision to pursue 
+             a degree in Systems Analysis and Development Technology.
         </p>
       </div>
     </div>

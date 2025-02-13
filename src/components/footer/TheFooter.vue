@@ -7,8 +7,7 @@
             alt=""></a>
         <a href="https://www.linkedin.com/in/douglaslessat/"><img class="imgsocialfooter" src="@/assets/linkedin.svg"
             alt=""></a>
-        <a href="https://www.instagram.com/douglas.lessat/"><img class="imgsocialfooter" src="@/assets/Instagram.svg" alt=""></a>
-        <a href="https://api.whatsapp.com/send/?phone=5527992730834&text&type=phone_number&app_absent=0"><img class="imgsocialfooter" src="@/assets/whatappicon.svg" alt=""></a>
+        <a href="https://www.instagram.com/igdouglaslessa/"><img class="imgsocialfooter" src="@/assets/Instagram.svg" alt=""></a>
       </div>
       <div class="containerlogo">
         <img class="imgfooter" src="@/assets/iconCurriculo.psd.svg" alt="">

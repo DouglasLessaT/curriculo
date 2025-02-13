@@ -2,20 +2,18 @@
 
   <div class="section2">
     <div class="textosection2">
-      <h1 class="TituloSection2">Nice to meet you my name is <span class="TituloSection2Douglas">Douglas</span> </h1>
+      <h1 class="TituloSection2">Hello! My name is <span class="TituloSection2Douglas">Douglas</span> </h1>
       <div class="divimgsction2mobile">
         <img class="imgsction2mobile" src="@/assets/me.jpeg" alt="">
       </div>
-      <p class="paragrafoSection2">I am a developer currently studying Systems Analysis and Technology at UniSales
-        - Centro Universitário Salesiano. Welcome to my website, which serves as a portfolio showcasing my ideas!</p>
+      <p class="paragrafoSection2"> I'm a developer currently pursin a dregree in system analysis an Development at Unisales - Centro Universitário Salesiano. 
+        Welcome to my wev site, which serves as a portifolio to showcase my projects and ideas!</p>
       <div class="divimgsocialsection2">
         <a href="https://github.com/DouglasLessaT"><img class="imgsocialsection2" src="@/assets/github.svg" alt=""></a>
         <a href="https://www.linkedin.com/in/douglaslessat/"><img class="imgsocialsection2" src="@/assets/linkedin.svg"
             alt=""></a>
-        <a href="https://www.instagram.com/douglas.lessat/"><img class="imgsocialsection2" src="@/assets/Instagram.svg"
+        <a href="https://www.instagram.com/igdouglaslessa/"><img class="imgsocialsection2" src="@/assets/Instagram.svg"
             alt=""></a>
-        <a href="https://api.whatsapp.com/send/?phone=5527992730834&text&type=phone_number&app_absent=0"><img
-            class="imgsocialsection2" src="@/assets/whatappicon.svg" alt=""></a>
       </div>
 
     </div>
@@ -28,17 +26,22 @@
     <h1 class="titulosection">Experencies</h1>
     <div class="divExperenciesgrup">
       <div class="divExperencies">
-        <p class="tituloExperencies">Project head /Dalta Madeiras, Rio Marino Vila-Velha</p>
-        <p class="dataExperencies">JUNE 2022 – PRESENT</p>
-        <p class="descriçãoExperencies">At Dalta Madeiras, I played a crucial role as an Administrative Assistant,
-          leading administrative management and supervision of the office's daily operations.
-          Responsible forcoordinating eight employees and 20 projects, my role involved the
-          efficient organization ofoffice functions, including hiring, training and onboarding
-          new team membersteam. In addition, I actively participated in the company's data
-          management and analysis,contributing to strategic and effective decision making.</p>
+        <p class="tituloExperencies"> Suporte TI-Dalta Madeiras; Rio Marino, Vila Velha -ES</p>
+        <p class="dataExperencies">JUNE 2019 – 23</p>
+        <p class="descriçãoExperencies">At Dalta Madeiras, I played a key in facilitating  the integration(JAVA and C#)  between environmemtal inspection software (DOF/IBAMA) 
+          and the company's ERP and CRM Sytems. Additionally, I managed and developed business rules for the company's systems, was responsible for the 
+          company's network infrastructure, and created reports related to RIPD and LGPD compliance.
+        </p>
       </div>
       <div class="divExperencies">
-        <p class="tituloExperencies">Estagiario Dev , Brazil</p>
+        <p class="tituloExperencies">Estagiario Dev - Devena; Vitoria - Es</p>
+        <p class="dataExperencies">Jan 2024 – PRESENT</p>
+        <p class="descriçãoExperencies">
+          Responsible for integrating reports created in JasperSoft Studio, using SQL for queries and Java for data manipulation. Additionally, in charge of developing 
+          CRM customization rules for businesses, utilizing JavaScript and TypeScript</p>
+      </div>
+      <!-- <div class="divExperencies">
+        <p class="tituloExperencies">Dev FREELANCER , Brazil</p>
         <p class="dataExperencies">Jan 2024 – PRESENT</p>
         <p class="descriçãoExperencies">
           My mission was to help micro-enterprises expand their business through website
@@ -48,9 +51,10 @@
           autonomously and collaboratively,I always sought to exceed expectations, providing
           high quality results and contributingfor the continued success of our customers.
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
+
 
   <div class="section4">
     <h1 class="titulosection">Soft skills</h1>
@@ -165,7 +169,7 @@
       </div>
     </div>
   </div>
-
+  
 </template>
 
 <script>
