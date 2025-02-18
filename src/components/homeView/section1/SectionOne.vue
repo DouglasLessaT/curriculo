@@ -219,6 +219,10 @@ export default {
   text-align: justify;
 
 }
+.imgskills{
+  display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -252,16 +256,14 @@ export default {
 
 
 .cardskills {
-  width: 70%;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 5px;
   background: #000000;
-  translate: -15%;
   display: flex;
-  width: 70%;
-  translate: -15%;
+  width: 50%;
+  translate: 0%;
   justify-content: center;
   flex-direction: column;
   align-content: center;
