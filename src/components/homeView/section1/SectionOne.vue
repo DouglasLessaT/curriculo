@@ -6,7 +6,8 @@
       <div class="divimgsction2mobile">
         <img class="imgsction2mobile" src="@/assets/me.jpeg" alt="">
       </div>
-      <p class="paragrafoSection2"> I'm a developer currently pursin a dregree in system analysis an Development at Unisales - Centro Universitário Salesiano. 
+      <p class="paragrafoSection2"> I'm a developer currently pursin a dregree in system analysis an Development at
+        Unisales - Centro Universitário Salesiano.
         Welcome to my wev site, which serves as a portifolio to showcase my projects and ideas!</p>
       <div class="divimgsocialsection2">
         <a href="https://github.com/DouglasLessaT"><img class="imgsocialsection2" src="@/assets/github.svg" alt=""></a>
@@ -14,6 +15,25 @@
             alt=""></a>
         <a href="https://www.instagram.com/igdouglaslessa/"><img class="imgsocialsection2" src="@/assets/Instagram.svg"
             alt=""></a>
+      </div>
+      <div class="divBadgesCertificates">
+        <a href="https://www.credly.com/earner/earned/badge/6dd8bfb0-065a-47f7-a9a5-e42359566580"><img class="badgesCertificates"
+          src="@/assets/juniorCybersecurityAnalystCareerPath.png" alt=""></a>
+
+        <a href="https://www.credly.com/earner/earned/badge/95714a59-4e0e-414c-82c9-16e0cd07ecf8"><img class="badgesCertificates"
+            src="@/assets/EndpointSecurity.png" alt=""></a>
+
+        <a href="https://www.credly.com/badges/061d8f75-245c-46ce-ba2d-81c9dbe0190c"><img class="badgesCertificates"
+            src="@/assets/NetworkDefense.png" alt=""></a>
+
+        <a href="https://www.credly.com/earner/earned/badge/33bfece6-3d18-47f5-bd71-1f1c85fae7bc"><img class="badgesCertificates"
+            src="@/assets/NetworkingDevicesandInitialConfiguration.png" alt=""></a>
+
+        <a href="https://www.credly.com/earner/earned/badge/9703cbfd-59e7-42a1-85ae-6379ff05409f"><img class="badgesCertificates"
+            src="@/assets/CyberThreatManagement.png" alt=""></a>
+
+        <a href="https://www.credly.com/earner/earned/badge/b09ac28a-42e9-4e40-9bbd-ca2118e965e3"><img class="badgesCertificates"
+            src="@/assets/EthicalHacker.png" alt=""></a>
       </div>
 
     </div>
@@ -28,8 +48,10 @@
       <div class="divExperencies">
         <p class="tituloExperencies"> Suporte TI-Dalta Madeiras; Rio Marino, Vila Velha -ES</p>
         <p class="dataExperencies">JUNE 2019 – 23</p>
-        <p class="descriçãoExperencies">At Dalta Madeiras, I played a key in facilitating  the integration(JAVA and C#)  between environmemtal inspection software (DOF/IBAMA) 
-          and the company's ERP and CRM Sytems. Additionally, I managed and developed business rules for the company's systems, was responsible for the 
+        <p class="descriçãoExperencies">At Dalta Madeiras, I played a key in facilitating the integration(JAVA and C#)
+          between environmemtal inspection software (DOF/IBAMA)
+          and the company's ERP and CRM Sytems. Additionally, I managed and developed business rules for the company's
+          systems, was responsible for the
           company's network infrastructure, and created reports related to RIPD and LGPD compliance.
         </p>
       </div>
@@ -37,7 +59,8 @@
         <p class="tituloExperencies">Estagiario Dev - Devena; Vitoria - Es</p>
         <p class="dataExperencies">Jan 2024 – PRESENT</p>
         <p class="descriçãoExperencies">
-          Responsible for integrating reports created in JasperSoft Studio, using SQL for queries and Java for data manipulation. Additionally, in charge of developing 
+          Responsible for integrating reports created in JasperSoft Studio, using SQL for queries and Java for data
+          manipulation. Additionally, in charge of developing
           CRM customization rules for businesses, utilizing JavaScript and TypeScript</p>
       </div>
       <!-- <div class="divExperencies">
@@ -143,7 +166,7 @@
           </div>
           <div class="carousel-item">
             <div class="cardskills">
-              <div class="imgskills"><img src="@/assets/gestaodeconflitos.jpg" alt=""></div>
+              <div class="imgskills"><img src="@/assets/comunicativodesenho.png" alt=""></div>
               <div class="texttituloskills">
                 <h1>Conflict Management</h1>
               </div>
@@ -169,7 +192,7 @@
       </div>
     </div>
   </div>
-  
+
 </template>
 
 <script>
@@ -200,6 +223,16 @@ export default {
   padding: 25px;
 }
 
+.badgesCertificates {
+  margin: 2px;
+  height: 150px;
+}
+
+.divBadgesCertificates {
+  display: flex;
+  margin-left: 20px;
+}
+
 .tituloExperencies {
   color: #fff;
   padding: 10px;
@@ -219,9 +252,10 @@ export default {
   text-align: justify;
 
 }
-.imgskills{
+
+.imgskills {
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

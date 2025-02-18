@@ -12,17 +12,30 @@
         commands: [
           "systemctl stop sshd",
           "systemctl status sshd",
-          "stranger@JOI-ubuntu:-$ ssh root@200.9.155.44 -p 22",
+          "○ sshd.service - OpenSSH Daemon",
+          "Loaded: loaded (/usr/lib/systemd/system/sshd.service; disabled; preset: disabled)",
+          "Active: inactive (dead)",
+          "stranger@JOI-arch:-$ ssh root@200.9.155.44 -p 22",
           "The authenticity of host '200.9.155.44 (200.9.155.44)' can't be established.",
           "ECDSA key fingerprint is SHA256:30TU65MUNxQzdq7l1lJI5k7z04CFABIJnyuQj0t6m5U.",
-          "Are you sure you want to continue connecting (yes/no/[fingerprint])? yes",
+          "Are you sure you want to continue connecting (yes/no/[fingerprint])?",
+          "yes",
           "Warning: Permanently added '200.9.155.44' (ECDSA) to the list of known hosts.",
           "root@200.9.155.44's password:",
+          "**********",
           "_inux infra.seniorhost.com.br 4.19.0-17-amd64 #1 SMP Debian 4.19.194-1 (2021-06- 10) x86_64",
-          "The programs included with the Debian GNU/Linux system are free software;",
-          "Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.",
+          "The programs included with the ARCH KDE/Linux system are free software;",
+          "ARCH KDE/Linux comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.",
           "Last login: Sun Jun 27 21:48:49 2021 from",
-          "root@curriculo:~#",
+          "               .__                               ",
+          "__  _  __ ____ |  |   ____  ____   _____   ____  ",
+          " \\/ \\/ // __ \\|  | _/ ___\\/  _ \\ /     \\_/ __ \\ ",
+          " \\     /\\  ___/|  |_\\  \\__(  <_> )  Y Y  \\  ___/ ",
+          "  \\/\\_/  \\___  >____/\\___  >____/|__|_|  /\\___  >",
+          "             \\/          \\/            \\/     \\/ ",
+          "",
+          "Welcome to my blog!",
+          "",
         ],
         terminalOutput: "",
         index: 0,
@@ -39,10 +52,9 @@
             this.index++;
           } else {
             clearInterval(interval);
-            // Aqui você pode redirecionar para a página principal
             this.$emit("loadingComplete");
           }
-        }, 500); // Intervalo entre os comandos
+        }, 500);
       },
     },
   };
