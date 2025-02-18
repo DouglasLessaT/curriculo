@@ -169,7 +169,7 @@
           </div>
           <div class="carousel-item">
             <div class="cardskills">
-              <div class="imgskills"><img src="@/assets/gestaodeconflitos.jpg" alt=""></div>
+              <div class="imgskills"><img src="@/assets/comunicativodesenho.png" alt=""></div>
               <div class="texttituloskills">
                 <h1>Conflict Management</h1>
               </div>
