@@ -16,11 +16,12 @@
         <a href="https://www.instagram.com/igdouglaslessa/"><img class="imgsocialsection2" src="@/assets/Instagram.svg"
             alt=""></a>
       </div>
-      <div class="divBadgesCertificates">
+      <div class="divdivBadgesCertificates">
+        <div class="divBadgesCertificates">
         <a href="https://www.credly.com/earner/earned/badge/6dd8bfb0-065a-47f7-a9a5-e42359566580"><img class="badgesCertificates"
           src="@/assets/juniorCybersecurityAnalystCareerPath.png" alt=""></a>
 
-        <a href="https://www.credly.com/earner/earned/badge/95714a59-4e0e-414c-82c9-16e0cd07ecf8"><img class="badgesCertificates"
+        <a href="https://www.netacad.com/courses/endpoint-security?courseLang=en-US"><img class="badgesCertificates"
             src="@/assets/EndpointSecurity.png" alt=""></a>
 
         <a href="https://www.credly.com/badges/061d8f75-245c-46ce-ba2d-81c9dbe0190c"><img class="badgesCertificates"
@@ -35,6 +36,8 @@
         <a href="https://www.credly.com/earner/earned/badge/b09ac28a-42e9-4e40-9bbd-ca2118e965e3"><img class="badgesCertificates"
             src="@/assets/EthicalHacker.png" alt=""></a>
       </div>
+      </div>
+
 
     </div>
     <div class="divimgsction2">
@@ -166,7 +169,7 @@
           </div>
           <div class="carousel-item">
             <div class="cardskills">
-              <div class="imgskills"><img src="@/assets/comunicativodesenho.png" alt=""></div>
+              <div class="imgskills"><img src="@/assets/gestaodeconflitos.jpg" alt=""></div>
               <div class="texttituloskills">
                 <h1>Conflict Management</h1>
               </div>
@@ -223,15 +226,7 @@ export default {
   padding: 25px;
 }
 
-.badgesCertificates {
-  margin: 2px;
-  height: 150px;
-}
 
-.divBadgesCertificates {
-  display: flex;
-  margin-left: 20px;
-}
 
 .tituloExperencies {
   color: #fff;
@@ -400,6 +395,16 @@ export default {
   filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
 }
 
+.badgesCertificates {
+  margin: 2px;
+  height: 100px;
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+}
+
+.divBadgesCertificates {
+  margin: 20px;
+}
+
 .divimgsction2mobile {
   display: none;
 }
@@ -418,6 +423,19 @@ export default {
     justify-content: center;
     margin: 20px;
   }
+  .divBadgesCertificates{
+    margin: 20px;
+  }
+  .divdivBadgesCertificates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .badgesCertificates {
+    margin: 2px;
+  height: 60px;
+  filter: drop-shadow(3px 3px 4px rgb(0, 0, 0));
+}
 
   .divimgsction2 {
     display: flex;
